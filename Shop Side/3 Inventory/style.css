@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Bookman Old Style;
+    color: white;
+    font-size: 40px;
+    margin-left: 10px; 
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:20vh
+}
+
+.table-container {
+    width: 100%;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: white;
+    height: 50px;
+}
+
+tr {
+    text-align: center;
+    background-color: bisque;
+    height: 40px;
+}
+
+#btn1 {
+    background-image: url('delete.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    height: 40px;
+    width: 40px;
+}
+
+.payment {
+    max-width: 100%;
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite; /* Optional: Navbar background color */
+    color: black;
+    padding: 10px;
+}
+
+#btn2 {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    text-align: right;
+    background-image: url('logout.gif');
+    background-repeat: no-repeat;
+}

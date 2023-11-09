@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer - Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="signup">
+                <div class="signupform">
+                    <h1 id="section-heading">Sign Up</h1>
+                    <br><br>
+                    <form class="form1" action="register.php" method="post">
+                        <table>
+                            <tr>
+                                <td><img src="user.jpeg" alt="Name" class="image"></td>
+                                <td><input type="text" name="name" placeholder="Name" class="ip" id="name"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="mail.png" alt="Email" class="image"></td>
+                                <td><input type="email" name="Email" placeholder="Email" class="ip" id="email1"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="address.png" alt="Address" class="image"></td>
+                                <td><input type="text" name="Address" placeholder="Address" class="ip" id="address"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="phone.png" alt="Contact" class="image"></td>
+                                <td><input type="number" name="Contact" placeholder="Contact" class="ip" id="contact"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="password.png" alt="Password" class="image"></td>
+                                <td><input type="password" name="Password" placeholder="Password" class="ip" id="pass1"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="confpass.jpeg" alt="Confirm Password" class="image"></td>
+                                <td><input type="password" name="Confirm" placeholder="Confirm Password" class="ip" id="confpass"></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <br><br>
+                    <button type="button" class="btn" onclick="Register()">Register</button>
+                </div>
+                <div class="signupimg">
+                    <img src="sign.jpeg" alt="Signup image" id="section-image">
+                    <br><br>
+                    <a href="#" onclick="showDownside()">I am already member</a>
+                </div>
+            </div>
+            <div class="login">
+                <div class="loginimg">
+                    <img src="log.jpeg" alt="Login image" id="section-image">
+                    <br><br>
+                    <a href="#" onclick="showUpside()">Create an account</a>
+                </div>
+                <div class="loginform">
+                    <h1 id="section-heading">Sign In</h1>
+                    <br><br>
+                    <form class="form2" action="login.php" method="post">
+                        <table>
+                            <tr>
+                                <td><img src="mail.png" alt="Email" class="image"></td>
+                                <td><input type="email" name="Email" placeholder="Email" class="ip" id="email2"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="password.png" alt="Password" class="image"></td>
+                                <td><input type="password" name="Password" placeholder="Password" class="ip" id="pass2"></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <br><br>
+                    <button type="button" class="btn" onclick="Login()">Login</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

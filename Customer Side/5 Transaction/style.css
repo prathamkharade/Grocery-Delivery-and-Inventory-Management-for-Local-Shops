@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.trans {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+#img1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 540px;
+    width: 960px;
+}
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#btn {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    text-align: right;
+    background-image: url('logout.gif');
+    background-repeat: no-repeat;
+}
