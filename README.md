@@ -1,4 +1,4 @@
-# Grocery-Delivery-and-Inventory-Management-for-Local-Shops
+# LAMP-Tech-Stack-Project-Grocery-Delivery-and-Inventory-Management-for-Local-Shops
 
 1. Download XAMPP from https://www.apachefriends.org/download.html
 2. Turn the Apache and MySQL servers ON inside XAMPP Control Panel
